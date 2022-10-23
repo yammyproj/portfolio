@@ -1,4 +1,4 @@
-- my portfolio [check it out!](yammyproj.github.io/portfolio/)
+## my portfolio [check it out!](https://yammyproj.github.io/portfolio/)
 - 👋 Hi, I’m @yammyproj;
 - 👀 I’m interested in frontend;
 - 🌱 I’m currently practicing html+css+js coding;
