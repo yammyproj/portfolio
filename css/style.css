@@ -1,4 +1,4 @@
-/*---------------ziro format---------------*/
+/*---------------zero format---------------*/
 *,
 *::before,
 *::after {
@@ -34,4 +34,30 @@ a {
 ul[class],
 ol[class] {
     list-style: none;
+}
+
+/*----------------------style---------------------*/
+.wrapper {
+    display: flex;
+    flex: min-content;
+    height: 100vh;
+    width: 100vw;
+    padding: 5px 5px 5px 5px;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(#e66465, #9198e5);
+
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10% 10%;
+}
+
+.main__container>div {
+    background: linear-gradient(#ffafaf, #9ccceccc);
+    text-align: center;
 }
